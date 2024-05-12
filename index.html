@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <div class="project">
+            <h2>Freelancing/Job Application</h2><br><br>
+            <section id="pic">
+                <img src="suko na.jpg" alt="photo" style="width: 400px;">
+            </section>
+            <div class="project-details">
+                <h3>Information Technology Qualification</h3>
+                <ul>
+                    <p>Bachelor's Degree in Information Technology</p>
+                    <p>Certification in Network Security</p>
+                    <p>Microsoft Certified Solutions Expert (MCSE)</p>
+                    <p>Oracle Certified Professional (OCP)</p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p><b> I'm Dave O. Deguanco, a BSIT student of University of Science and Technology of the Southern Philippines. I wanna become a pro-coder but it doesn't show it here in my project. <b></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
